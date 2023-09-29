@@ -1,18 +1,30 @@
+p.cardBottom {
+    font-size: 20px;
+    margin: 0;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px blue;
+}
+
 .card {
     padding: 10px;
     height: 300px;
     width: 300px;
-    background-color: rgb(77, 25, 25);
+    border: solid;
+    border-width: 5px;
+    border-color: rgb(77, 25, 25);
+    background-color: rgb(28, 14, 14);
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .cardTop {
     height: 220px;
     width: 270px;
-    background-color: blue;
     border-radius: 10px;
 }
